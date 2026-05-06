@@ -63,17 +63,17 @@ Automated full user workflows including:
 ```text
 selenium-automation-urban-routes/
 │
-├── tests/
-│   └── test_main.py
+├── data/
+│   └── data.py
 │
 ├── pages/
 │   └── urban_routes_page.py
 │
+├── tests/
+│   └── test_main.py
+│
 ├── utils/
 │   └── helpers.py
-│
-├── data/
-│   └── data.py
 │
 ├── main.py
 ├── requirements.txt
