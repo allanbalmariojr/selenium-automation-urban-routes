@@ -83,7 +83,7 @@ selenium-automation-urban-routes/
 
 ---
 
-## ▶️ How to Run Tests
+### ▶️ How to Run Tests
 1. Install dependencies
 pip install selenium pytest
 2. Run tests
@@ -91,7 +91,7 @@ pytest main.py
 
 ---
 
-🧪 Test Scenarios Covered
+### 🧪 Test Scenarios Covered
 Route creation and validation
 Taxi plan selection
 Phone number verification (SMS flow)
@@ -102,7 +102,7 @@ Complete taxi order flow
 
 ---
 
-📌 Key Takeaways (Sprint 8 Focus)
+### 📌 Key Takeaways (Sprint 8 Focus)
 Transitioned from procedural test scripts to POM-based framework
 Improved separation of concerns between tests and page logic
 Introduced proper test lifecycle management (setup/teardown)
@@ -110,7 +110,7 @@ Strengthened full end-to-end UI automation coverage
 
 ---
 
-🧠 Tech Stack
+### 🧠 Tech Stack
 Python
 Selenium WebDriver
 PyTest
