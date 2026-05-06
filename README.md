@@ -83,10 +83,48 @@ selenium-automation-urban-routes/
 
 ---
 
-### ▶️ How to Run Tests
-1. Install dependencies
+## ▶️ How to Run Tests
+
+These instructions are universal and work in any environment with Python installed (VS Code, PyCharm, Mac, Windows, Linux, or CI pipelines).
+
+---
+
+### 1. Clone the repository
+
+git clone https://github.com/allanbalmariojr/selenium-automation-urban-routes.git
+
+cd selenium-automation-urban-routes
+
+---
+
+### 2. (Optional) Create a virtual environment
+
+python -m venv venv
+
+Activate it:
+
+Windows (PowerShell):
+venv\Scripts\activate
+
+Mac / Linux:
+source venv/bin/activate
+
+---
+
+### 3. Install dependencies
+
 pip install selenium pytest
-2. Run tests
+
+---
+
+### 4. Run all tests
+
+pytest
+
+---
+
+### 5. Run a specific test file (optional)
+
 pytest main.py
 
 ---
