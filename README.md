@@ -92,29 +92,29 @@ pytest main.py
 ---
 
 ### 🧪 Test Scenarios Covered
-Route creation and validation
-Taxi plan selection
-Phone number verification (SMS flow)
-Credit card payment setup
-Driver message input
-Extra service selection (blankets, handkerchiefs, ice cream)
-Complete taxi order flow
+- Route creation and validation
+- Taxi plan selection
+- Phone number verification (SMS flow)
+- Credit card payment setup
+- Driver message input
+- Extra service selection (blankets, handkerchiefs, ice cream)
+- Complete taxi order flow
 
 ---
 
 ### 📌 Key Takeaways (Sprint 8 Focus)
-Transitioned from procedural test scripts to POM-based framework
-Improved separation of concerns between tests and page logic
-Introduced proper test lifecycle management (setup/teardown)
-Strengthened full end-to-end UI automation coverage
+- Transitioned from procedural test scripts to POM-based framework
+- Improved separation of concerns between tests and page logic
+- Introduced proper test lifecycle management (setup/teardown)
+- Strengthened full end-to-end UI automation coverage
 
 ---
 
 ### 🧠 Tech Stack
-Python
-Selenium WebDriver
-PyTest
-Page Object Model (POM)
+- Python
+- Selenium WebDriver
+- PyTest
+- Page Object Model (POM)
 
 ---
 
