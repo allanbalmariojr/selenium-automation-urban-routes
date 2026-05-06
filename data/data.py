@@ -1,0 +1,13 @@
+# File with constants
+URBAN_ROUTES_URL = 'https://cnt-46e22314-6967-45f3-a231-0e6989dbc61b.containerhub.tripleten-services.com'
+ADDRESS_FROM = "East 2nd Street, 601"
+ADDRESS_TO = "1300 1st St"
+PHONE_NUMBER = "+1 123 123 12 12"
+CARD_NUMBER = "1234 5678 9100"
+CARD_CODE = "1111"
+MESSAGE_FOR_DRIVER = "Stop at the juice bar, please"
+PLAN_CONFIRMATION = "Supportive"
+CARD_CONFIRMATION = "Card"
+BLANKET_HANDKERCHIEF_CONFIRMATION = "true"
+ICE_CREAM_CONFIRMATION = "2"
+CAR_ORDER_CONFIRMATION = True
