@@ -83,7 +83,7 @@ selenium-automation-urban-routes/
 
 ---
 
-▶️ How to Run Tests
+## ▶️ How to Run Tests
 1. Install dependencies
 pip install selenium pytest
 2. Run tests
