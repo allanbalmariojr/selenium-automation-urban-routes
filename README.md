@@ -68,6 +68,8 @@ project/
 ├── data.py       # Test data and constants
 ├── helpers.py    # Utility functions (URL checks, SMS retrieval)
 
+```text
+
 ---
 
 ▶️ How to Run Tests
