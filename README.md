@@ -61,7 +61,8 @@ Automated full user workflows including:
 ## 📁 Project Structure
 
 ```text
-project/
+selenium-automation-urban-routes
+/
 │
 ├── tests/
 │   └── test_main.py
