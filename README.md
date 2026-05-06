@@ -69,9 +69,6 @@ selenium-automation-urban-routes/
 ├── pages/
 │   └── urban_routes_page.py
 │
-├── tests/
-│   └── test_main.py
-│
 ├── utils/
 │   └── helpers.py
 │
