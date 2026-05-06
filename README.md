@@ -27,15 +27,6 @@ The goal of this sprint was to:
 
 ---
 
-### ⚙️ Test Structure Improvements
-
-- Implemented `setup_class` and `teardown_class` methods
-- Properly initialized and closed Selenium WebDriver
-- Moved URL validation (`helpers.is_url_reachable`) into setup class method
-- Added Chrome logging capabilities for debugging and test support
-
----
-
 ### 🧪 End-to-End Test Coverage
 
 Automated full user workflows including:
