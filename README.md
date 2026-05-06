@@ -129,7 +129,7 @@ pytest main.py
 
 ---
 
-### 🧪 Test Scenarios Covered
+## 🧪 Test Scenarios Covered
 - Route creation and validation
 - Taxi plan selection
 - Phone number verification (SMS flow)
@@ -140,7 +140,7 @@ pytest main.py
 
 ---
 
-### 📌 Key Takeaways (Sprint 8 Focus)
+## 📌 Key Takeaways (Sprint 8 Focus)
 - Transitioned from procedural test scripts to POM-based framework
 - Improved separation of concerns between tests and page logic
 - Introduced proper test lifecycle management (setup/teardown)
@@ -148,7 +148,7 @@ pytest main.py
 
 ---
 
-### 🧠 Tech Stack
+## 🧠 Tech Stack
 - Python
 - Selenium WebDriver
 - PyTest
