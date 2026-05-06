@@ -1,1 +1,107 @@
+# 🚕 Urban Routes UI Automation Framework (Sprint 8)
+
+This project is an automated UI testing framework for the Urban Routes web application using **Selenium WebDriver, Python, and PyTest**.
+
+Sprint 8 focuses on converting previous procedural tests into a **Page Object Model (POM) structure**, improving scalability, maintainability, and overall test organization.
+
+---
+
+## 🎯 Project Objective
+
+The goal of this sprint was to:
+
+- Refactor existing Selenium tests into a **Page Object Model (POM) architecture**
+- Implement proper **setup and teardown methods using PyTest class fixtures**
+- Improve maintainability by separating test logic from page interactions
+- Ensure complete end-to-end user flow coverage for the taxi ordering application
+
+---
+
+## 🧠 Key Features Implemented
+
+### 🏗️ Page Object Model (POM)
+
+- Created `pages.py` to store all locators and page methods
+- Encapsulated all UI interactions inside the `UrbanRoutesPage` class
+- Improved reusability and reduced duplication across test cases
+
+---
+
+### ⚙️ Test Structure Improvements
+
+- Implemented `setup_class` and `teardown_class` methods
+- Properly initialized and closed Selenium WebDriver
+- Moved URL validation (`helpers.is_url_reachable`) into setup class method
+- Added Chrome logging capabilities for debugging and test support
+
+---
+
+### 🧪 End-to-End Test Coverage
+
+Automated full user workflows including:
+
+- Route setup (From / To address input)
+- Taxi plan selection
+- Phone number authentication with SMS verification
+- Payment method setup (credit card entry and confirmation)
+- Driver comment input
+- Additional service options (blankets, handkerchiefs, ice cream ordering)
+- Final taxi order placement and confirmation validation
+
+---
+
+### 🕒 Synchronization Handling
+
+- Used `WebDriverWait` and `expected_conditions`
+- Improved test stability and reduced flakiness
+- Ensured proper element visibility and clickability before actions
+
+---
+
+## 📁 Project Structure
+
+```text
+project/
+│
+├── main.py       # PyTest test cases (test execution layer)
+├── pages.py      # Page Object Model (locators + page methods)
+├── data.py       # Test data and constants
+├── helpers.py    # Utility functions (URL checks, SMS retrieval)
+
+---
+
+▶️ How to Run Tests
+1. Install dependencies
+pip install selenium pytest
+2. Run tests
+pytest main.py
+
+---
+
+🧪 Test Scenarios Covered
+Route creation and validation
+Taxi plan selection
+Phone number verification (SMS flow)
+Credit card payment setup
+Driver message input
+Extra service selection (blankets, handkerchiefs, ice cream)
+Complete taxi order flow
+
+---
+
+📌 Key Takeaways (Sprint 8 Focus)
+Transitioned from procedural test scripts to POM-based framework
+Improved separation of concerns between tests and page logic
+Introduced proper test lifecycle management (setup/teardown)
+Strengthened full end-to-end UI automation coverage
+
+---
+
+🧠 Tech Stack
+Python
+Selenium WebDriver
+PyTest
+Page Object Model (POM)
+
+---
 
