@@ -89,29 +89,31 @@ cd selenium-automation-urban-routes
 
 python -m venv venv
 
-Activate it:
+---
 
-Windows (PowerShell):
+### 3. Activate it:
+
+## Windows (PowerShell):
 venv\Scripts\activate
 
-Mac / Linux:
+## Mac / Linux:
 source venv/bin/activate
 
 ---
 
-### 3. Install dependencies
+### 4. Install dependencies
 
 pip install selenium pytest
 
 ---
 
-### 4. Run all tests
+### 5. Run all tests
 
 pytest
 
 ---
 
-### 5. Run a specific test file (optional)
+### 6. Run a specific test file (optional)
 
 pytest main.py
 
