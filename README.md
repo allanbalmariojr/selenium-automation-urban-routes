@@ -63,11 +63,14 @@ Automated full user workflows including:
 ```text
 project/
 │
-├── main.py       # PyTest test cases (test execution layer)
-├── pages.py      # Page Object Model (locators + page methods)
-├── data.py       # Test data and constants
-├── helpers.py    # Utility functions (URL checks, SMS retrieval)
-
+├── main.py              # PyTest test cases (execution layer)
+├── pages.py             # Page Object Model (locators + methods)
+├── data.py              # Test data and constants
+├── helpers.py           # Utility functions (URL checks, SMS retrieval)
+│
+├── requirements.txt     # Project dependencies
+├── .gitignore           # Files to exclude from Git tracking
+└── README.md            # Project documentation
 ```
 
 ---
